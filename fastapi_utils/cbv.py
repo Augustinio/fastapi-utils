@@ -46,7 +46,11 @@ def _cbv(router: APIRouter, cls: Type[T]) -> Type[T]:
         router.routes.remove(route)
         _update_cbv_route_endpoint_signature(cls, route)
         cbv_router.routes.append(route)
-    router.include_router(cbv_router)
+    # Main change from original lib. Instead of including cbv router in the
+    # router, we append each route to the router. This prevents add_route from
+    # being called twice on the same route.
+    for route in cbv_router.routes:
+        router.routes.append(route)
     return cls
 
 

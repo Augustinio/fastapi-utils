@@ -77,7 +77,9 @@ def test_multiple_decorators() -> None:
                 return {"item_query": item_query}
             return []
 
-    client = TestClient(router)
+    app = FastAPI()
+    app.include_router(router)
+    client = TestClient(app)
 
     assert client.get("/items").json() == []
     assert client.get("/items/1").json() == {"item_path": "1"}
