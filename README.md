@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/netlify/28b2a077-65b1-4d6c-9dba-13aaf6059877" alt="Netlify status">
 </a>
 <br />
-<a href="https://pypi.org/project/fastapi-utils" target="_blank">
+<a href="https://pypi.org/project/fastapi-utils-evo" target="_blank">
     <img src="https://badge.fury.io/py/fastapi-utils.svg" alt="Package version">
 </a>
     <img src="https://img.shields.io/pypi/pyversions/fastapi-utils.svg">
