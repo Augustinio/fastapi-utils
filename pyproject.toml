@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "fastapi-utils-psql"
+name = "fastapi-utils-evo"
 version = "0.2.2"
 description = "Reusable utilities for FastAPI"
 license = "MIT"
