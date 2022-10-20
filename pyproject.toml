@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "fastapi-utils"
-version = "0.2.1"
+name = "fastapi-utils-psql"
+version = "0.2.2"
 description = "Reusable utilities for FastAPI"
 license = "MIT"
 authors = ["David Montague <davwmont@gmail.com>"]
 readme = "README.md"
 homepage = "https://fastapi-utils.davidmontague.xyz"
-repository = "https://github.com/dmontagu/fastapi-utils"
+repository = "https://github.com/augustinio/fastapi-utils-evo"
 documentation = "https://fastapi-utils.davidmontague.xyz"
 keywords = ["fastapi", "utilities", "utils"]
 classifiers = [
