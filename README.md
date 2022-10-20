@@ -28,7 +28,7 @@
 
 ---
 
-This is a forked version of fatapi-utils developped by David Montagu.
+This is a forked version of fastapi-utils developped by David Montagu.
 
 ---
 
